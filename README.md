@@ -8,29 +8,6 @@ A complete end-to-end **Movie Recommendation System** built using three differen
 
 This project uses the **MovieLens ml-20m dataset**, a widely-used dataset for benchmarking recommender systems.
 
----
-
-## 📦 Repository Structure
-📁 Movie_Recommendation_using_SPARK-ML/
-│
-├── data/
-│ ├── ratings.csv / .dat
-│ ├── movies.csv / .dat
-│ ├── genome-tags.csv
-│ ├── links.csv
-│ ├── ...
-│
-├── Spark_ML.py # ALS-based recommender using Apache Spark
-├── Auto_Encoders.py # TensorFlow Autoencoder model
-├── H2O.py # H2O ML models: RF, GBM, Deep Learning
-│
-├── html_outputs/ # .py exported as HTML with outputs
-│
-└── README.md
-
-
----
-
 # 📘 Project Overview
 
 This project builds a movie recommender using multiple ML approaches on the **MovieLens 20M dataset**, which contains:
