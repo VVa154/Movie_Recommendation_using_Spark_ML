@@ -1,4 +1,4 @@
-# 🎬 Movie Recommendation System using Spark ML, Autoencoders & H2O
+# Movie Recommendation System using Spark ML, Autoencoders & H2O
 
 A complete end-to-end **Movie Recommendation System** built using three different machine learning frameworks:
 
@@ -8,7 +8,7 @@ A complete end-to-end **Movie Recommendation System** built using three differen
 
 This project uses the **MovieLens ml-20m dataset**, a widely-used dataset for benchmarking recommender systems.
 
-# 📘 Project Overview
+# Project Overview
 
 This project builds a movie recommender using multiple ML approaches on the **MovieLens 20M dataset**, which contains:
 
@@ -18,13 +18,13 @@ This project builds a movie recommender using multiple ML approaches on the **Mo
 - Data collected from **138,493 users** over **20 years**
 
 Dataset Source:  
-👉 https://grouplens.org/datasets/movielens/
+https://grouplens.org/datasets/movielens/
 
 ---
 
-# 🧠 Approaches Implemented
+# Approaches Implemented
 
-## 1️⃣ Collaborative Filtering using Spark ALS
+## 1. Collaborative Filtering using Spark ALS
 
 **File:** `Spark_ML.py`
 
@@ -38,7 +38,7 @@ This implementation uses the **Alternating Least Squares (ALS)** algorithm from 
 
 ---
 
-## 2️⃣ Autoencoders (TensorFlow)
+## 2. Autoencoders (TensorFlow)
 
 **File:** `Auto_Encoders.py`
 
@@ -53,7 +53,7 @@ A neural autoencoder model that reconstructs user-movie rating vectors to predic
 
 ---
 
-## 3️⃣ H2O Machine Learning Models
+## 3. H2O Machine Learning Models
 
 **File:** `H2O.py`
 
@@ -72,7 +72,7 @@ Models implemented:
 
 ---
 
-# ⚙️ Installation & Setup
+#  Installation & Setup
 
 ### Prerequisites
 - Python 3.7+  
@@ -84,11 +84,11 @@ Models implemented:
 
 ---
 
-## ▶️ How to Run Each Model
+##  How to Run Each Model
 
 ---
 
-## **1. Running Spark ALS Model**
+1. Running Spark ALS Model
 
 Ensure SPARK_HOME is set in your environment.
 
