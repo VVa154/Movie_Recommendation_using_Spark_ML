@@ -88,14 +88,14 @@ Models implemented:
 
 ---
 
-1. Running Spark ALS Model
+#1. Running Spark ALS Model
 
 Ensure SPARK_HOME is set in your environment.
 
 ```bash
 python Spark_ML.py
 
-2. Running Autoencoder Model
+#2. Running Autoencoder Model
 python Auto_Encoders.py
 
 Requires: 
@@ -104,12 +104,12 @@ numpy
 pandas
 scikit-learn
 
-3. Running H2O Models
+#3. Running H2O Models
 python H2O.py
 
 Requires: pip install h2o
 
-Dataset Description
+#Dataset Description
 This project uses the official MovieLens ml-20m dataset, which includes:
 ratings.csv – userId, movieId, rating, timestamp
 movies.csv – movieId, title, genres
@@ -120,7 +120,7 @@ tags.csv – user-generated tags
 Dataset source:
 https://grouplens.org/datasets/movielens/
 
-The MovieLens dataset is licensed for research use only and must not be used for:
+#The MovieLens dataset is licensed for research use only and must not be used for:
 commercial purposes
 redistribution
 endorsement claims
